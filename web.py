@@ -22,8 +22,6 @@ for todo in todos :
 st.text_input(label='' , placeholder='Enter a todo...' , 
               on_change=add_todo , key='new_todo')
 
-print(bool_list)
-
 for index,item in enumerate(bool_list) :
     if item :
         todos.pop(index)
